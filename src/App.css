@@ -1,0 +1,78 @@
+.profile-container {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.name {
+  font-family: Calibri;
+  font-size: 28pt;
+  margin-bottom: 5px;
+}
+
+.handle {
+  font-family: Calibri;
+  font-size: 20pt;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: Calibri;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.hashtag {
+  font-family: Calibri;
+  font-size: 12pt;
+  color: #666;
+  margin-top: 10px;
+}
+
+.message-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.message {
+  font-family: Calibri;
+  font-size: 16pt;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.follow-button,
+.message-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14pt;
+  font-family: Calibri;
+}
+
+.message-button {
+  margin-left: 10px;
+}
+
+.follow-button:hover,
+.message-button:hover {
+  background-color: #0056b3;
+}
+
+.follow-button:focus,
+.message-button:focus {
+  outline: none;
+}
